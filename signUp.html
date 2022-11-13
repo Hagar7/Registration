@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="alert alert-success d-none" role="alert" id="successMsg">
+                
+              </div>
+            <h2>Smart Login System</h2>
+            <input type="name" placeholder="Enter Your Name" id="signName" class="form-control">
+            <div class="direction p-1 my-1 d-none" id="msgName" >Please Enter a Vaild Name</div>
+            <div class="direction p-1 my-1 d-none" id="msgName2" >Username already token Please Try Another One </div>
+            <input type="email" placeholder="Enter Your Email" id="signEmail" class="form-control">
+            <div class="direction p-1 my-1 d-none" id="msgEmail" >Please Enter a Vaild Email</div>
+            <div class="direction p-1 my-1 d-none" id="msgEmail2" >Email already token Please Try Another One </div>
+            <input type="password" placeholder="Enter Your password" id="signPassword" class="form-control">
+            <div class="direction p-1 my-1 d-none" id="msgPass" >password must contain at least one numeric digit and a special character</div>
+            <button id="signBtn" class="btn btn-info mybtn">Sign Up</button>
+            <div class="message">You have an account? <a href="index.html">Sign In</a></div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script> 
+</body>
+</html>

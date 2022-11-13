@@ -1,0 +1,136 @@
+body{
+    background: rgb(36, 53, 63);
+    font-family: 'Engagement', cursive;
+}
+.main{
+    padding: 60px;
+}
+.main .container{
+   width:70%;
+   margin: auto;
+   box-shadow: 1px 0px 16px rgb(0, 0, 0) ;
+   padding:50px 30px ;
+
+}
+
+.main h2{
+    color: rgb(23, 162, 184);
+    text-align: center;
+    margin-bottom: 25px;
+}
+.main input{
+    margin: 20px 0;
+    background-color: transparent;
+    overflow: visible;
+}
+.form-control {
+    color: #fff;
+}
+.main input:focus{
+    background-color: transparent; 
+    color: #eee;
+}
+
+.main input::placeholder{
+    color: #eee;
+}
+.main .mybtn {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.main .mybtn:hover{
+    background-color: rgb(23, 162, 184);
+}
+.main .message {
+color: #fff;
+text-align: center;
+}
+.main .message a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.main .message a::before{
+    position: absolute;
+    background-color: #fff;
+    content: "";
+    bottom:0px;
+    left:0px;
+    width:0%;
+    height: 1px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.main .message a:hover:before{
+    width:100%;
+}
+.direction {
+    color:red
+}
+
+.navbar{
+z-index: 2;
+}
+.header{
+    min-height: 60vh;
+}
+.slider{
+    position: relative;
+}
+.icons .myicon{
+    font-size: 30px;
+    color: #fff; 
+    position: absolute;
+    top:50%;
+    left:10px
+}
+.icons2 .myicon2{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.918); 
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    right:10px
+}
+
+.postImg{
+    height: 200px;
+    object-fit: cover;
+}
+
+.content-title{
+    color: #eee;
+    font:16px;
+    margin: 10px;
+    text-align: center;
+}
+.post-item .post-span{
+    color: #eee;
+    font:16px;
+    margin: 10px;
+    text-align: center;
+}
+
+.content h2 {
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+.nav-item{
+    cursor: pointer;
+}
+.navbar-brand{
+    font-family: 'Engagement', cursive;
+    color:#a3ba9e
+}
